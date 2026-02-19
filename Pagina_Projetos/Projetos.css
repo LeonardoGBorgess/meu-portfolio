@@ -1,0 +1,152 @@
+    body{
+        margin:0;
+        font-family: Arial, Helvetica, sans-serif;
+        background:#E5E7EB;
+        color:#333;
+    }
+
+    /* ======= HEADER ======= */
+    header{
+        width:100%;
+        padding:25px 60px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        box-sizing:border-box;
+        background-color: #ffffff;  
+    }
+
+    .logo-area{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        font-size:16px;
+        font-weight:bold;
+      
+    }
+
+    .logo-square{
+        width:10px;
+        height:10px;
+        background:#8d8e94;
+        border-radius: 50%;
+    }
+
+    .cargo{
+        font-size:12px;
+        font-weight:400;
+        color:#444;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: #000;
+        margin-left: 28px;
+        font-size: 12px;
+        
+    }
+
+    nav a.active{
+        color: #1958fa;
+        font-weight: bold;
+    }
+
+    /* ======= CONTEÚDO PRINCIPAL ======= */
+    .container{
+        max-width:1200px;
+        margin:0 auto;
+        padding:40px 20px;
+        text-align:center;
+    }
+
+    h2{
+        font-size:24px;
+        margin-bottom:10px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:8px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h2::before{
+        content:"";
+        width:12px;
+        height:12px;
+        background:#1e41ff;
+        display:inline-block;
+    }
+
+    .descricao-topo{
+        max-width:700px;
+        margin:0 auto 50px auto;
+        line-height:1.5;
+          font-family: 'Poppins', sans-serif;
+     }
+
+    /* ======= CARDS DOS PROJETOS ======= */
+    .projeto{
+        background:white;
+        border-radius:4px;
+        overflow:hidden;
+        margin-bottom:60px;
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .proj-texto{
+        flex:1;
+        padding:35px;
+        min-width:280px;
+        box-sizing:border-box;
+        font-family: 'Poppins', sans-serif;
+          text-align: justify;
+    }
+
+    .proj-header{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        margin-bottom:10px;
+    }
+
+    .barra-azul{
+        width:5px;
+        height:25px;
+        background:#1e41ff;
+    }
+
+    .proj-nome{
+        font-size:14px;
+        font-weight:bold;
+        color:#1e41ff;
+    }
+
+    .proj-texto p{
+        font-size:13px;
+        line-height:1.6;
+        margin-top:10px;
+        color:#333;
+    }
+
+    .proj-imagem{
+        flex:1;
+        min-width:280px;
+    }
+
+    .proj-imagem img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        display:block;
+    }
+
+    /* ======= RESPONSIVIDADE ======= */
+    @media (max-width:900px){
+        header{
+            padding:20px 30px;
+        }
+        .projeto{
+            flex-direction:column;
+        }
+    }

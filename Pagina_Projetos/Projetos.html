@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Projetos.css">
+<title>Leonardo Gomes - Projetos</title>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-area">
+        <div class="logo-square"></div>
+        Leonardo Gomes <span class="cargo">/ Analista De Dados</span>
+    </div>
+
+    <nav>
+        <a href="/Pagina.html">SOBRE MIM</a>
+        <a href="../Pagina_Curriculo/Curriculo.html">CURRÍCULO</a>
+        <a href=""class="active">PROJETOS</a>
+        <a href="../Pagina_contato/contato.html">CONTATO</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Projetos</h2>
+    <p class="descricao-topo">
+       Nesta seção compartilho projetos que demonstram minha atuação prática como Analista de Dados, desde o tratamento e análise dos dados até a construção de dashboards e relatórios gerenciais. Cada projeto foi desenvolvido com foco em clareza, eficiência e impacto, sempre buscando responder perguntas de negócio por meio dos dados.
+    </p>
+
+    <!-- PROJETO 01 -->
+    <div class="projeto">
+        <div class="proj-texto">
+            <div class="proj-header">
+                <div class="barra-azul"></div>
+                <div>
+                    <div class="proj-nome">Do Dado Bruto ao Relatório PDF: Automação de Análise Meteorológica em Python</div>
+                </div>
+            </div>
+
+            <p>
+               Este projeto consiste em uma aplicação desenvolvida em Python para análise, visualização e geração automática de relatórios em PDF a partir de dados meteorológicos provenientes de diferentes estações (Campbell e Hobeco).
+
+A aplicação permite ao usuário selecionar o tipo de dado, a estação meteorológica e a variável de interesse por meio de uma interface gráfica (Tkinter), gerando automaticamente estatísticas descritivas, filtragem de outliers e gráficos informativos.
+            </p>
+
+            <p>
+<b> Problema:</b><br>
+A análise de dados meteorológicos envolve grandes volumes de informações, múltiplos formatos de arquivos e diversas variáveis.Na prática, gerar estatísticas e gráficos confiáveis costuma ser um processo manual, demorado e dependente de conhecimento técnico, o que dificulta análises rápidas e padronizadas.<br><br>
+
+<b>Solução:</b><br>
+
+O sistema automatiza todo esse processo, realizando Leitura inteligente de diferentes formatos de dados,Conversão e limpeza das variáveis,
+
+Detecção e remoção de outliers,
+
+Cálculo de estatísticas descritivas,
+
+Geração de gráficos e relatórios em PDF com
+
+indicadores prontos para decisão.
+            </p>
+        </div>
+
+        <div class="proj-imagem">
+            <img src="script1.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- PROJETO 02 -->
+    <div class="projeto">
+        <div class="proj-texto">
+            <div class="proj-header">
+                <div class="barra-azul"></div>
+                <div>
+                    <div class="proj-nome">Análise Automatizada de Correlação e Geração de Gráficos em Excel com Python</div>
+                </div>
+            </div>
+
+            <p>
+                Projeto desenvolvido em Python utilizando Pandas e XlsxWriter para automatizar a análise de correlação entre múltiplas variáveis.
+O script lê dados de um arquivo Excel, calcula a matriz de correlação, identifica pares com correlação superior a 0,6 e gera automaticamente gráficos de dispersão para cada par relevante em um novo arquivo Excel.
+            </p>
+            <p><b>Problema:</B><br>
+Em análises, é comum lidar com grandes volumes de dados de múltiplos municípios ou variáveis. Identificar quais séries se movem juntas (alta correlação) manualmente é demorado, sujeito a erros e dificulta a geração de insights rápidos para tomada de decisão.<br><br>
+<b>Solução:</b><br>
+O processo que antes exigia análise manual passa a ser 100% automatizado, permitindo identificar rapidamente relações relevantes entre municípios, acelerar análises exploratórias e apoiar decisões estratégicas com base em dados.
+        </p>
+
+        </div>
+
+        <div class="proj-imagem">
+            <img src="script2.jpg" alt="">
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

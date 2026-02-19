@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato | Leonardo Gomes</title>
+</head>
+<body>
+
+<header>
+   <div class="logo-area">
+        <div class="logo-square"></div>
+        Leonardo Gomes <span class="cargo">/ Analista De Dados</span>
+    </div>
+
+    <nav>
+        <a href="/Pagina.html">SOBRE MIM</a>
+        <a href="../Pagina_Curriculo/Curriculo.html">CURRÍCULO</a>
+        <a href="../Pagina_Projetos/Projetos.html">PROJETOS</a>
+        <a href="#" class="active">CONTATO</a>
+    </nav>
+</header>
+
+<main>
+    <div class="title">
+        <span></span>Contato
+    </div>
+
+    <div class="form-container">
+        <form action="https://formspree.io/f/xkogbvbk" method="post">
+            <div class="row">
+                <div class="field">
+                    <label>Nome <span>*</span></label>
+                    <input type="text" name="Nome" required pattern="[A-Za-zÀ-ÿ\s]{2,}"
+                      title="Digite apenas letras e espaços (mínimo 2 caracteres)">
+                </div>
+
+                <div class="field">
+                    <label>Sobrenome <span>*</span></label>
+                    <input type="text" name="Sobrenome" required pattern="[A-Za-zÀ-ÿ\s]{2,}"
+                      title="Digite apenas letras e espaços (mínimo 2 caracteres)">
+                </div>
+            </div>
+
+            <div class="field">
+                <label>Email <span>*</span></label>
+                <input type="email" name="Email" required>
+            </div>
+
+            <div class="field">
+                <label>Assunto</label>
+                <input type="text" name="Assunto">
+            </div>
+
+            <div class="field">
+                <label>Mensagem</label>
+                <textarea name="Mensagem" required></textarea>
+            </div>
+
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+ body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #E5E7EB;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            width: 100%;
+            padding: 25px 40px;
+            background: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+    .logo-area{
+        display:flex;
+        align-items:center;
+        gap:10px;
+        font-size:16px;
+        font-weight:bold;
+      
+    }
+
+    .logo-square{
+        width:10px;
+        height:10px;
+        background:#8d8e94;
+        border-radius: 50%;
+    }
+
+    .cargo{
+        font-size:12px;
+        font-weight:400;
+        color:#444;
+    }
+
+        
+
+        header nav a {
+            margin-left: 35px;
+            text-decoration: none;
+            font-size: 12px;
+            color: black;
+            font-size: 12px;
+        }
+
+        header nav a.active {
+            color: #1958fa;
+            font-weight: bold;
+        }
+
+        /* ===== CONTENT ===== */
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+        }
+
+        h2.section-title {
+            font-size: 20px;
+            margin-bottom: 40px;
+             font-family: 'Poppins', sans-serif;
+        }
+
+        .btn-download {
+            background: #0053ff;
+            padding: 10px 25px;
+            border-radius: 25px;
+            color: white;
+            font-size: 12px;
+            text-decoration: none;
+            float: right;
+        }
+
+        /* ===== CARDS ===== */
+        .card {
+            width: 100%;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+            display: flex;
+            justify-content: space-between;
+            box-sizing: border-box;
+        }
+
+        .left-col {
+            width: 35%;
+            font-size: 13px;
+        }
+
+        .left-col .title {
+            font-weight: bold;
+            color: #0053ff;
+            margin-bottom: 5px;
+             font-family: 'Poppins', sans-serif;
+        }
+
+        .left-col .sub {
+            font-weight: bold;
+            margin-bottom: 5px;
+             font-family: 'Poppins', sans-serif;
+        }
+
+        .right-col {
+            width: 60%;
+            font-size: 12px;
+            line-height: 1.5;
+             font-family: 'Poppins', sans-serif;
+              text-align: justify;
+        }
+
+        /* ===== SKILLS / LANGUAGES ===== */
+        .list-block {
+            display: flex;
+            gap: 100px;
+            margin-top: 20px;
+           
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+
+        ul li::before {
+            content: "■ ";
+            color: #0053ff;
+            font-size: 10px;
+            margin-right: 4px;
+        }
